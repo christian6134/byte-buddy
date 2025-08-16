@@ -13,7 +13,7 @@ A simple nutrition & meal-tracking app built with SwiftUI. It uses:
 - Apple ID added in Xcode (for signing the app to run on devices/simulator)
 
 
-**🚀 Quick Start (TL;DR)****
+**Quick Start (TL;DR)**
 - Clone the repo and open the project in Xcode.
 - Add secrets (Nutritionix keys) via Secrets.plist
 - Make sure Firebase is configured (GoogleService-Info.plist present).
@@ -22,6 +22,7 @@ A simple nutrition & meal-tracking app built with SwiftUI. It uses:
 
 
 **PROJECT STRUCTURE**
+```text
 Byte Buddy/
 ├─ Sources/
 │  ├─ App/
@@ -46,12 +47,9 @@ Byte Buddy/
 │  │  ├─ Meal.swift
 │  │  └─ UserProfile.swift
 │  │
-│  ├                                
-│  │  
-│  │
 │  └─ Resources/
 │     ├─ GoogleService-Info.plist            # Firebase iOS config (required)
-│     └─ Secrets.plist                       # Nutritionix keys 
+│     └─ Secrets.plist                       # Nutritionix keys (gitignored)
 │
 ├─ Tests/
 │  └─ ByteBuddyTests.swift                   # Unit/UI tests (optional)
@@ -59,7 +57,7 @@ Byte Buddy/
 ├─ .gitignore
 ├─ README.md
 └─ LICENSE
-
+```
 
 **Firebase Setup**
 - Confirm GoogleService-Info.plist is required and must be downloaded from Firebase console.
